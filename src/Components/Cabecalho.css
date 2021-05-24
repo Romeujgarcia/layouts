@@ -1,0 +1,46 @@
+.cabecalho {
+    position: fixed;
+    top: 0%;
+    right: 0;
+    width: calc(100vw - 250px);
+    background-color: #fff;
+    height: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.name{
+
+width: 60%;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border: 1px solid rgb(196, 187, 187);
+border-radius: 40px;
+padding: 0% 15px;
+
+
+}
+
+
+.MuiInputBase-input.MuiInput-input {
+    width: 560px;
+    background-color: #fff;
+    border: none;
+}
+
+
+.icon {
+    width: 600px;
+    list-style-type: none;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    color:black;
+    justify-content: center;
+    align-items: center; 
+    
+}
