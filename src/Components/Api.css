@@ -1,0 +1,44 @@
+.api {
+    width: calc(100vw - 250px);
+    height:  calc(100vh - 94px);
+    background-color: f5f5f5;
+    margin: 94px 0px 0px 250px;
+    
+    position: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+   
+}
+
+.dev {
+background-color: white;
+
+margin-bottom: 10px;
+justify-content: center;
+display: grid;
+grid-template-columns: 10% 25% 40% 15% 10%;
+align-items: center;
+justify-content: center;
+column-gap: 10px;
+padding: 0px 30px;
+
+
+}
+
+.dev1 {
+    width: 90%;
+}
+
+.images{
+    width: 30px;
+    height: 30px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    border-radius: 15px;
+    display: table-cell;
+}
